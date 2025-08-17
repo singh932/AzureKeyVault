@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\demo\\demo.csproj": {}
+    "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\key_vault\\demo.csproj": {}
   },
   "projects": {
-    "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\demo\\demo.csproj": {
+    "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\key_vault\\demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\demo\\demo.csproj",
+        "projectUniqueName": "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\key_vault\\demo.csproj",
         "projectName": "demo",
-        "projectPath": "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\demo\\demo.csproj",
+        "projectPath": "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\key_vault\\demo.csproj",
         "packagesPath": "C:\\Users\\harma\\.nuget\\packages\\",
-        "outputPath": "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\demo\\obj\\",
+        "outputPath": "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\key_vault\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

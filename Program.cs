@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Builder;
 var builder = WebApplication.CreateBuilder(args);
 
 // 🔐 Get password from Azure Key Vault
-string keyVaultUrl = "https://azurekeyva1.vault.azure.net/";
+string keyVaultUrl = "https://harmankvault.vault.azure.net/";
 var secretClient = new SecretClient(new Uri(keyVaultUrl), new DefaultAzureCredential());
 
 KeyVaultSecret secret = secretClient.GetSecret("SqlDbPassword");
@@ -135,7 +135,7 @@ app.MapGet("/data", async (HttpContext context) =>
     using var connection = new SqlConnection(connStr);
     await connection.OpenAsync();
 
-    using var command = new SqlCommand("SELECT * FROM student_info", connection);
+    using var command = new SqlCommand("SELECT * FROM student", connection);
     using var reader = await command.ExecuteReaderAsync();
 
     var results = new List<object>();

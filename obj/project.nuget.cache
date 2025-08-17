@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O8nwLiEZLXg=",
+  "dgSpecHash": "zCBXEdygQHI=",
   "success": true,
-  "projectFilePath": "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\demo\\demo.csproj",
+  "projectFilePath": "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\key_vault\\demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\harma\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\harma\\.nuget\\packages\\azure.identity\\1.15.0\\azure.identity.1.15.0.nupkg.sha512",
@@ -50,9 +50,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'System.Data.SqlClient' 4.8.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
-      "projectPath": "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\demo\\demo.csproj",
+      "projectPath": "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\key_vault\\demo.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\demo\\demo.csproj",
+      "filePath": "D:\\VSCodeProjects\\Project_Azure_Key_Vault\\key_vault\\demo.csproj",
       "libraryId": "System.Data.SqlClient",
       "targetGraphs": [
         "net9.0"
